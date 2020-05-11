@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec 'ts-node' server.ts",
-    "dev": "yarn start"
+    "start": "ts-node server.ts",
+    "dev": "yarn start",
+    "start:hot": "nodemon --exec 'ts-node' server.ts",
+    "dev:hot": "yarn start:hot"
   },
   "dependencies": {
     "express": "^4.17.1",
