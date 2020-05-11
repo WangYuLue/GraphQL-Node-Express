@@ -5,7 +5,6 @@ import {
   GraphQLInt
 } from 'graphql'
 
-// 我们要用的模拟数据
 const data = require('../../data/data.json')
 
 const User = new GraphQLObjectType({

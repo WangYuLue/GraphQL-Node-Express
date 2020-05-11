@@ -1,6 +1,6 @@
-import express from 'express'
+import * as express from 'express'
 import Schema from './src/schema'
-import graphqlHTTP from 'express-graphql'
+import * as graphqlHTTP from 'express-graphql'
 
 const app = express()
 const port = 3000
